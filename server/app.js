@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://aa1283:kayslay1995@cluster0.6pdqp.mongodb.net/DiseaseDB?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://userName:PassWord@cluster0.6pdqp.mongodb.net/DiseaseDB?retryWrites=true&w=majority")
 
 const con = mongoose.connection
 
